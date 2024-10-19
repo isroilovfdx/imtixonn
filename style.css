@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.nav-img {
+    display: flex;
+    width: 185px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+header{
+    padding: 38px 0px 38px 0px;
+}
+
+.q1 {
+    font-family: Open Sans;
+    font-size: 25px;
+    color: red;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin-top: 24px;
+}
+.nv-li{
+    color: black;
+    font-size: 18px;
+}
+li:hover{
+    color: red;
+    font-size: 20px;
+    transition: 300ms ease;
+}
+
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+}
+.button1{
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px;
+    background-color: white;
+    color: red;
+}
+.button1:hover{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    background-color: red;
+    color: white;
+    transition: 300ms ease;
+}
+.button2{
+    background-color: white;
+    color: red;
+    border-radius: 8px;
+    padding:12px 24px 12px 24px ;
+    border: 2px solid red;
+    width: 189px;
+    height: 47px;
+}
+.button2:hover{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding:12px 24px 12px 24px ;
+    border: 2px solid red;
+    width: 200px;
+    height: 50px;
+    transition: 300ms ease;
+}
+.SECTION-1{
+    background-image:url(./image\ 4\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 49px;
+    width: 700px;
+    height: 82.30px;
+    
+
+
+}
+.into-sec1{
+    display: flex;
+    flex-direction: column;
+    margin: 137px 130px 150px 110px;
+}
+.img11{
+    width: 423px;
+    height: 482px;
+   padding-right: 20px;
+   padding-top: 30px;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+}
+.mini-card{
+    display: flex;
+    width: 864px;
+    height: 200px;
+    margin-top: 30px;
+}
+.into-minicard1{
+    width: 600px;
+    height: 96px;
+    margin-left: 64px;
+    margin-top: 30px;
+}
+p{
+    font-size: 16px;
+    color: gray;
+}
+h4{
+    font-size: 26px;
+    margin-bottom: 24px;
+    
+
+}
+.into-sec2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mini-card2{
+    width: 864px;
+    height: 200px;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 215px;
+}
+.into-minicard2{
+    width: 600px;
+    height: 125px;
+    margin-right: 64px;
+    margin-top: 37.5px;
+}
+.section33{
+    background-color:  #0EB4C1;
+    
+}
+iframe{
+    border-radius: 12px;
+}
+h5{
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.login{
+    background-color: white;
+    width: 540px;
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-top: 28px;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+input{
+    width: 460px;
+    height: 39.11px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding-left: 33px;
+}
+input:hover{
+    width: 460px;
+    height: 43px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding-left: 33px;
+    transition: 300ms ease;
+}
+.button3{
+    width: 460px;
+    height: 39.11px;
+    border-radius: 5px;
+    border: 2px solid #38CC8B;  
+    background-color:  #38CC8B;
+    color: white;
+    font-size: 15px;
+    
+}
+.button3:hover{
+    width: 460px;
+    height: 39.11px;
+    border-radius: 10px;
+    border: 3px solid red;  
+    background-color:  white;
+    color:black;
+    font-size: 15px;
+    transition: 300ms ease;  
+}
+.button3:active{
+    width: 460px;
+    height: 39.11px;
+    border-radius: 10px;
+    border: 3px solid red;  
+    background-color:  black;
+    color:white;
+    font-size: 15px;
+    transition: 400ms ease;  
+}
+::placeholder{
+    color: black;
+}
+.section3{
+    display: flex;
+    gap: 68px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+footer{
+    background-color: black;
+}
+.fotr-parent{
+    display: flex;
+   justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+}
+.fotr-img {
+    display: flex;
+    width: 185px;
+    height: 50px;
+    margin-top: 10px;
+}
+.f-ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
